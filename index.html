@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bait Rahasia's Portfolio</title>
+  <style>
+    :root {
+      --pink: #f8c8dc;
+      --pink-dark: #e59ab3;
+      --text: #333;
+      --bg: #fff0f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+    }
+
+    header {
+      background-color: var(--pink);
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--pink-dark);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #fff;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: #fff;
+      margin-top: 10px;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+
+    .links {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .links a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 25px;
+      background-color: var(--pink-dark);
+      color: white;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background-color: #c77895;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background-color: var(--pink);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bait Rahasia</h1>
+    <p>Visual & Creative Art Portfolio</p>
+  </header>
+
+  <section class="gallery">
+    <img src="https://via.placeholder.com/300x200/ffc0cb/ffffff?text=Work+1" alt="Work 1">
+    <img src="https://via.placeholder.com/300x200/ffd6e0/000000?text=Work+2" alt="Work 2">
+    <img src="https://via.placeholder.com/300x200/fbcce7/000000?text=Work+3" alt="Work 3">
+    <img src="https://via.placeholder.com/300x200/f9b5d0/000000?text=Work+4" alt="Work 4">
+  </section>
+
+  <section class="links">
+    <a href="https://instagram.com/yourusername" target="_blank">Instagram</a>
+    <a href="https://shutterstock.com/g/yourusername" target="_blank">Shutterstock</a>
+    <a href="mailto:youremail@example.com">Contact Me</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Bait Rahasia. All rights reserved.
+  </footer>
+
+</body>
+</html>
